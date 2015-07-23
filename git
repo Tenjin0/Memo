@@ -1,0 +1,9 @@
+Creation d'une nouvelle branche
+  git checkout -b feature/import-recur
+Creation d'une branche avec le contenu du remote
+  git checkout -b feature/import-recur orgin/feature/import-recur
+
+Supppression d'une branche
+  git branch -D master
+Lier une branche avec son la branche de la remote
+  git branch --set-upstream-to=<remote>/<branch> <branch>

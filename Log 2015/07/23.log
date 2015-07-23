@@ -1,0 +1,79 @@
++ creation d'une clé ssh acces GitHub pour la VM : SSH Key PC-Dell VM
+
++ installation de composer
+curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
+-> donne acces a la commande composer.
+
++ creation d'un token d'acces pour composer
+Dans gitHub setting -> Personal access tokens ->  <TOKEN>
+run : composer config --global github-oauth.github.com <TOKEN>
+
++ update extranet
+cd /var/www/netmessage-extranet/
+php composer.phar update
+npm install
+
++ install nvm
+curl https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
+source ~/.profile ( ne marche pas dans le provision.sh)
+nvm install 0.10.38
+nvm use 0.10.38
+
+
++ creation d'un .bashrc
+copie de l'ancien en changeant la ligne
+export NVM_DIR="/home/nekran/.nvm"
+export NVM_DIR="/home/vagrant/.nvm"
+
+nvm use stable
+nvm use 0.10.38
++ Configuration de git
+  git config --global user.name "John Doe"
+  git config --global user.email johndoe@example.com
+
++ changement de la requete HTTPS -> SSH
+    dans  .git/config  https://github.com/Tenjin0/netmessage-extranet.git ->  git@github.com:Tenjin0/netmessage-extranet.git
+
+
++ creation des branch git feature/import-recur pour extranet et api
+
++ lie le nouvelle branch avec celui distant
+  git branch --set-upstream-to=origin/feature/import-recur feature/import-recur
+
++ Chargement de la base de donnée
+ ./db-migrate up -> ./node_modules/db-migrate/bin/db-migrate up
+
++ update api
+  mise a jour de la bonne branche
+  chargement de la base de donnée
+
++ mettre dans les fichiers
+  host(win) C:\Windows\System32\drivers\etc
+  hosts(ubuntu) sudo xdg-open /etc/hosts
+  erreur forbidden
+  127.0.0.1 extranet.netmessage.lan
+  127.0.0.1 api.netmessage.lan
+
++ probleme 504 Gateway Time-out
+  affichage du log tail -f /var/www/log/extranet_netmessage_2015/07/23.php
+
+  changement du nginx ajout
+  root 		/var/www/netmessage-extranet/public;
+  fastcgi_param FUEL_ENV local;
+  sudo service nginx restart
+  sudo service php5-fpm restart
+
+  bower install extranet
+  grunt full_install
+
+  lancement API : node server.io.js
+  creation d'un repertoire session dans /var/www
+  probleme bootstrap :
+    mkdir public/assets/css/dist
+    cp public/bower_components/bootstrap/dist/css/bootstrap.css public/assets/css/dist/default.bootstrap.css
+
++ installation chrome mobaXterm (pose aussi un probleme de freeze)
+
++ debug jquery-appear
+  dans extranet bower install jquery-appear
