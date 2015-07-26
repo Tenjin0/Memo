@@ -1,0 +1,13 @@
++ Installation  de alternative Windows Console v2
+
+?? Commnet load .basrc a la connection de la VM
+
++ Reunion sur la nouvelle architecture
+  Dans Core Model/ pour les model
+
++ sauvegarde des branch feature/import-recur
+
++ chargement des nouvelles branches master
+  api -> npm install
+
++ modification pc contre les freezes. (not working)

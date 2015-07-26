@@ -15,16 +15,17 @@ php composer.phar update
 npm install
 
 + install nvm
-curl https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
-source ~/.profile ( ne marche pas dans le provision.sh)
-nvm install 0.10.38
-nvm use 0.10.38
+  curl https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
+  source ~/.profile ( ne marche pas dans le provision.sh)
+  nvm install 0.10.38
+  nvm use 0.10.38
 
 
 + creation d'un .bashrc
-copie de l'ancien en changeant la ligne
-export NVM_DIR="/home/nekran/.nvm"
-export NVM_DIR="/home/vagrant/.nvm"
+  copie de l'ancien en changeant la ligne
+  export NVM_DIR="/home/nekran/.nvm" ->export NVM_DIR="/home/vagrant/.nvm"
+
++ creation d'un bash_profile
 
 nvm use stable
 nvm use 0.10.38
@@ -42,7 +43,8 @@ nvm use 0.10.38
   git branch --set-upstream-to=origin/feature/import-recur feature/import-recur
 
 + Chargement de la base de donnée
- ./db-migrate up -> ./node_modules/db-migrate/bin/db-migrate up
+  ./db-migrate up -> ./node_modules/db-migrate/bin/db-migrate up
+  create database test;S
 
 + update api
   mise a jour de la bonne branche
@@ -50,10 +52,10 @@ nvm use 0.10.38
 
 + mettre dans les fichiers
   host(win) C:\Windows\System32\drivers\etc
-  hosts(ubuntu) sudo xdg-open /etc/hosts
-  erreur forbidden
+  hosts(ubuntu) /etc/hosts
   127.0.0.1 extranet.netmessage.lan
   127.0.0.1 api.netmessage.lan
+  erreur forbidden variable voir ajour fichier nginx fastcgi_param FUEL_ENV local;
 
 + probleme 504 Gateway Time-out
   affichage du log tail -f /var/www/log/extranet_netmessage_2015/07/23.php
@@ -64,7 +66,7 @@ nvm use 0.10.38
   sudo service nginx restart
   sudo service php5-fpm restart
 
-  bower install extranet
+  bower install
   grunt full_install
 
   lancement API : node server.io.js
@@ -77,3 +79,18 @@ nvm use 0.10.38
 
 + debug jquery-appear
   dans extranet bower install jquery-appear
+
+# Maison
+
+  Installation Linux test nginx
+    FAIRE :Creation du user et de la database test
+
+  Test terminal windows : Alternative Windows Console et PowerCmd
+    http://superuser.com/questions/268042/terminal-emulator-with-split-panes-for-windows-7-64-bit
+
+  nouveau git : NodeJS, Memo
+  installation netMessage API sur PC/linux
+  configuration apache2 port.conf ( port 81 pour ne plus avoir de conflit)
+  chmod 777 var/log var/session
+  probleme login 404 not found
+  probleme avec la tache grunt not found
