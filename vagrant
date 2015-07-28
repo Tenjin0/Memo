@@ -1,0 +1,4 @@
+vagrant up
+vagrant reload [--provision]
+vagrant ssh
+vagrant provision

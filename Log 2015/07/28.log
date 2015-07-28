@@ -1,0 +1,11 @@
++ remise des fichiers .twig de ma tache pour import de l'ancienne version
++ remise des traductions pour import ftp
+  bug : ne trouve pas Lang::load("Scheduler.json") -> namespace \Lang et mettre dans le lang local au module datamart
+
++ bug avec la fonction sendfile de virtualbox utilisé par nginx
+  sendfile off dans le fichier de config nginx
+
+- bug du repeater dans le formulaire ftp
+  mofication de la methode DatamartImportController.import
+  mofication de fichier  ftprdv.js
+  mofication du css
