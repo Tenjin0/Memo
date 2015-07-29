@@ -1,7 +1,7 @@
 Creation d'une nouvelle branche
   git checkout -b feature/import-recur
 Creation d'une branche avec le contenu du remote
-  git checkout -b feature/import-recur orgin/feature/import-recur
+  git checkout -b feature/import-recur origin/feature/import-recur
 
 Supppression d'une branche
   git branch -D master

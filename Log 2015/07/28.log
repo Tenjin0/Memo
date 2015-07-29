@@ -1,11 +1,23 @@
-+ remise des fichiers .twig de ma tache pour import de l'ancienne version
-+ remise des traductions pour import ftp
-  bug : ne trouve pas Lang::load("Scheduler.json") -> namespace \Lang et mettre dans le lang local au module datamart
++ probleme timestamp
+  mise a jour des fichiers extranet avec ma partie
+  mise a jour url du package netmessage.core dans package.json sur api
 
-+ bug avec la fonction sendfile de virtualbox utilisé par nginx
-  sendfile off dans le fichier de config nginx
++ Merge SaviorMySQL
 
-- bug du repeater dans le formulaire ftp
-  mofication de la methode DatamartImportController.import
-  mofication de fichier  ftprdv.js
-  mofication du css
+  <<<<<<< HEAD
+      var alreadyValidated = res && res.locals && res.locals.validation && res.locals.validation.is_valid;
+      if (alreadyValidated) {
+          thenSave(datas);
+      } else {
+          if (hasModel) {
+              model.bind(datas);
+
+              var errors = this.validate(model);
+  =======
+      if (hasModel) {
+          model.bind(datas);
+
+          var errors = this.validate(model);
+  >>>>>>> 625ad8d59292281edcdf29c2713a7902624f3b94
+
++ probleme avec trigger_end_occurance mauvaise valeur récupérer

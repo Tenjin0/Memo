@@ -1,0 +1,7 @@
+http://api.netmessage.lan:8080/datamart/import/list/?api_key=d360e4c1aecef80eed0e093f76efcda0
+
+content-md5 d360e4c1aecef80eed0e093f76efcda0
+id-user 1
+Content-Type application/json
+
+{"criteria" : {"id" : 10 }}
