@@ -7,3 +7,6 @@ Supppression d'une branche
   git branch -D master
 Lier une branche avec son la branche de la remote
   git branch --set-upstream-to=<remote>/<branch> <branch>
+
+
+git stash

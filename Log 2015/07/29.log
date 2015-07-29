@@ -1,1 +1,9 @@
-+ Requete http pour recuperer les ressources en utilisant postman
+- Requete http pour recuperer les ressources en utilisant postman
+
+
++ Client error response [url] http://api.netmessage.lan:8080/company/hostname [status code] 401 [reason phrase] Unauthorized
+  db-migrate reset
+  db-migrate down
+  reinstallation des versions upstream et et apport de mon code avant le changement
+
++ Reset des branches master et feature/import-recur pour api et extranet
