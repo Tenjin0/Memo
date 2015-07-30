@@ -1,0 +1,17 @@
+Url choix
+  :ressource/create
+  :ressource/save
+  :ressource/list
+  :ressource/update/:id
+  :ressource/view/:id
+
+create rajoute des elements comme id company
+
+  :ressource/:method?type=':type'
+    cote api
+
+      middleware qui recupere le type
+
+  :ressource/ftp
+
+  :ressource/:method/:type
