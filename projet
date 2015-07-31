@@ -15,3 +15,8 @@ create rajoute des elements comme id company
   :ressource/ftp
 
   :ressource/:method/:type
+
++ Changer la navbar
+  Dans extranetController $navbarList
+
+  la methode uri route dans le fichier twig regarde dans les différents routes ( app/class/core) et (:modules/config/routes.php)

@@ -1,0 +1,12 @@
++ lecture de la doc fuel
+
+- recherche des endroits a modifier dans la partie extranet
+  fuel/app/controller/ExtranetController.php
+  fuel/app/views/navbar.twig
+    methode path : methode fuel php
+      fuel/packages/parser/fuel/extension
+
++ update extranet et api
+  npm install et db-migrate up
+
++ duplication de datamart vers import

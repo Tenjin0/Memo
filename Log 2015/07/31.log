@@ -1,0 +1,7 @@
++ Modification des routes
+  la liste de tous les routes dans chaques modules pour la corespondance methode <-> lien url ( il y aussi une route globale ie independant des modules)
+  extranetcontroller navbarlist url datamart_import -> import_new
+  import/config/route
+  modification des providers import/behaviour pour ne plus faire des call a /datamart a l'arm et importListInformationProvider pour avoir un bon format
+
+  

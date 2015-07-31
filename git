@@ -10,3 +10,4 @@ Lier une branche avec son la branche de la remote
 
 
 git stash
+git stash list
