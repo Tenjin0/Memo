@@ -1,0 +1,24 @@
++ bug fixe load import/import.js
+  dans import.js require(["import_import"]); défini dans config ( require.main.js)
+
++ changement api
+  voir dbNew qui renvoie l'output de la requete
+  modification id parent
+
++ grep -rn "mot dans le fichier" /dossier
+
++ migrate
+  principe de patch créer un nouveau patch
+  migrate up applique le dernier patch
+  migrate down revient au patch précédent
+
++ api : import/new renvoie les informaition de la table et des id existants
+
++ importer un fichier
+    utiliser apiClient->upload
+    - le modifier pour qu'il renvoie l'id : response->body dans le return apres le code
+    - ne crée pas un import car url import/list
+    - apiClient/upload response->getHeaders / response->getBody / response->getStatusCode
+
+    -recuperer l'id de l'upload
+ 

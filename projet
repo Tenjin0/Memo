@@ -20,3 +20,8 @@ create rajoute des elements comme id company
   Dans extranetController $navbarList
 
   la methode uri route dans le fichier twig regarde dans les différents routes ( app/class/core) et (:modules/config/routes.php)
+
++list des import dans template.List
+  dans un twig si la methode uri renvoie "" c'est qu'il n'y a pas de routes.php
+
++ pour les requires il faut le module et l'action cf extranetController 

@@ -1,0 +1,5 @@
++ données manquantes : count quand on fait un import/list ( API )
+  solution choisis faire un apiCAll depuis l'extranet
++ bug fixe
+  changement du modulename de Import
+  changement des noms des fichiers lang reprise par dupication de datatmart
