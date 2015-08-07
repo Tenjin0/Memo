@@ -7,3 +7,5 @@ accept-content application/json
 
 
 {"criteria" : {"id" : 10 }}
+
+{ "import":{ "creation_datetime": 1438936663,"trigger":{ "is_active": true,"trigger_action": "datamart/action/import/ftp/download","trigger_target_delay": 0,"execution_count": 0,"creation_datetime": 1438936663,"trigger_target_datetime": 1438936500,"previous_execution_datetime": null,"interval_period_type": "none","interval_period": null,"trigger_end_type": null,"trigger_end_datetime": null,"trigger_end_occurrance": null,"day_of_the_month": null,"days_of_the_week": null },"original_filename": null,"original_filesize": null,"ftp_host": "ftp.patricepetit.96.lt","ftp_port": 21,"ftp_filepath": "importTenji.csv","ftp_login": "u231138740.tenji","ftp_password": "patman00","import_name": "TenjiImportMinute","id_user": 1,"emails": "petitpatrice@gmail.com","import_list_automatic_creation": true,"import_action": "INSERT","import_type": "SMS","status": "not_loaded","active_deduplication": true,"is_qualified": false,"charset": "utf-8","column_separator": ";","column_enclosure": null,"column_escape": "\\","end_line": "\\n","is_null_replaced": false,"id_import_list_information": null,"id_company": 1 } }

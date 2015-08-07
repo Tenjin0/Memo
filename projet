@@ -24,4 +24,9 @@ create rajoute des elements comme id company
 +list des import dans template.List
   dans un twig si la methode uri renvoie "" c'est qu'il n'y a pas de routes.php
 
-+ pour les requires il faut le module et l'action cf extranetController 
++ pour les requires il faut le module et l'action cf extranetController
+
++ Faire un upload via extranet ApiClient->upload(url)
+    cote api : regarder les routes
+
++ guzzle $response->json() avoir la reponse sous format json pour recuperer l'id par exemple
