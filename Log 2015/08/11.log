@@ -1,0 +1,8 @@
+avant : changement du datetimepicker
+    creation dependance dans require
++ extranet : Bug occurence dans import/ftp : n'envoyait pas le bon resultat
+    creation d'un champs hidden
++ extranet : modication twig import/ftp form pour le datetimepicker start|end
+- bug Enregistrement de la date dans la base de donnée
+    creation d'un hook coté api beforeSave beforeCreate orm.opts.js
+    qui doit regarder si le format de la date et le transformer dans le bon format
