@@ -1,0 +1,31 @@
+api.netmessage.lan:8080/import/save/file?apikey=d360e4c1aecef80eed0e093f76efcda0Array
+(
+    [headers] => Array
+        (
+            [content-type] => multipart/form-data
+        )
+
+    [body] => Array
+        (
+            [upload] => Resource id #12
+            [import_name] => TenjiImport
+            [id_user] => 1
+            [emails] => petitpatrice@gmail.com
+            [original_filename] =>
+            [import_list_automatic_creation] => on
+            [import_list_name] =>
+            [import_action] => INSERT
+            [import_type] => SMS
+            [status] => not_loaded
+            [active_deduplication] => 1
+            [is_qualified] => 0
+            [original_filesize] =>
+            [id_upload] =>
+            [charset] => utf-8
+            [column_separator] => ;
+            [column_enclosure] =>
+            [column_escape] => \
+            [end_line] => \n
+        )
+
+)
