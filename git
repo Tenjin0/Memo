@@ -7,7 +7,10 @@ Supppression d'une branche
   git branch -D master
 Lier une branche avec son la branche de la remote
   git branch --set-upstream-to=<remote>/<branch> <branch>
-
+Reset les changements d'un fichier au contenu du dernier head
+    git checkout -- filename
 
 git stash
 git stash list
+git stash apply ???
+git stash drop
