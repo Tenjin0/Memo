@@ -1,0 +1,3 @@
++ script import.js
+    node standalone.js --config=daemons/import-cfg.json
++ compréhension des differents appels du code

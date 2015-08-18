@@ -1,4 +1,10 @@
-- Résoudre problème avec les jours de la semaine selectionnées
+- Trouver l'email pour envoyer le rapport avec un upload de fichier
+
+- Faire l'agorithme de récurrence pour le ftp
+
+- Arreter le trigger si le daemon est arreté.
+
+- DONE Résoudre problème avec les jours de la semaine selectionnées
 
 - DONE Resoudre probleme avec repeater.twig variables non passées en parametre
 
