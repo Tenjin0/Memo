@@ -1,0 +1,9 @@
++ import recurrence api done ( 19/08/2015)
+- import concurrence
+    gerer qu'il n'y ait qu'une seule fois un upload qui soit crée via un trigger
+    nouvelle colonne dans la table import pid qui est
+    le processus pere recherche les import not_loaded qui n'ont pas de pid
+    et envoie l'id au processus fils. qui recupere l'import correspondant
+    astuce : une fois récupérer on lock le tuple en settant le pid au process.id
+    pour cela on fait une requete update avec,WHERE PID IS NULL pour bien verifier que
+    le pid est toujours null. (MYSQL ne fait qu'une requete a la fois)

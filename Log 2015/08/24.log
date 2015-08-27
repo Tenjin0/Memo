@@ -1,0 +1,7 @@
++ Gestion d'import ( api ) cas ou le process child s'arrete a cause d'une erreur
+    envoie d'un objet vers le parent.process.
+    PR fait.
+
+- nouvelle tache remplacer tous les datetimepickers sur les pages extranet
+
+- nouvelle tache sms responsive mettre un message correspandant a input emetteur.
