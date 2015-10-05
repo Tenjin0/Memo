@@ -1,0 +1,11 @@
++ Cas d'un date dans un fichier import
+1) faire 2 champs : format date, fields
+2) script d'import customfield  detecter une date + creer un nouveau champs
+3) campagne récurrente filtre statique dateOf_Birth = today
+
+Pour passer la validation :
+ modifier la methode getSchema cote API ex: Core/CampaignModel
+ puis faire un hook befeoreSave et beforeCreate
+
+
+ + mettre les champs en parametres

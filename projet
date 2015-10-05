@@ -1,3 +1,10 @@
+less_variables: {"@extranet-brand-logo":"logo.png","@navbar-default-link-color":"#000000","@navbar-default-bg":"#f8f8f8","@navbar-default-border":"#e7e7e7","@extranet-bg-img":"bg.jpg","@brand-corporate":"#ffb146","@brand-primary":"#337ab7","@brand-success":"#5cb85c","@brand-info":"#5bc0de","@brand-warning":"#f0ad4e","@brand-danger":"#d9534f","@link-color":"#428bca","@page-container-bg-color":"#ffffff","@text-color":"#000000","@body-bg":"#ffffff","@btn-border-radius":"16 »}
+
+- Faire une fonction qui compare les lignes des tables et retourne la liste des attributs communs (rest.clone | db.clone)
+- Faire un sampler
+- Faire des fonctionnalite pour recuperer un fichier sur un ftp
+
+
 Url choix
   :ressource/create
   :ressource/save
@@ -30,3 +37,5 @@ create rajoute des elements comme id company
     cote api : regarder les routes
 
 + guzzle $response->json() avoir la reponse sous format json pour recuperer l'id par exemple
+
++ creer un production account -> aller sur entreprise netmessage -> parametre -> remplir le champ email. Done

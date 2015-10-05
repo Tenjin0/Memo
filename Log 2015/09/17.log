@@ -1,0 +1,7 @@
++ JQuery Query Builder Transformation de la requete date en chaine de caractere
+
++ remplacement de jQueryBuilder par la version courante
+
++ dans le require utiliser jquery-builder car il est défini dans le standalone comme ca.
+
++ code interessant dans jquerybuilder_deps

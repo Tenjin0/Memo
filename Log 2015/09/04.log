@@ -1,0 +1,3 @@
+- Faire recurrence sur daemon injection
+    node standalone.js --config=daemons/injection-cfg.json
+        node standalone.js --config scripts/injection.cfg.json --req.params.id_campaign 38
