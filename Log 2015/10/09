@@ -1,0 +1,32 @@
+- information notification injection campagne
+
+    Format
+    Media : Sms
+    Date d'envoi : mercredi 7 octobre 2015 à 09:55
+    Nombre de liste(s) : 1
+    Plage selectionnée sur la/les liste(s) : "Toute" ou "de 1 à 500" ou "Multiple" (si plusieurs listes)
+    Filtre appliquée sur la liste : Nom du filtre ou "Multiple" (si plusieurs listes)
+    Dédoublonnage monoliste : Oui/Non
+    Dédoublonnage multiliste : Oui/Non
+    Nombre de destinataires potentiels : 1
+    SMS Long : Oui/Non (x2) pour xxx destinataires
+    Horaire de diffusion autorisé : 00H00 - 24H00
+    SMS Responsive : Oui/Non
+    Tracking URL : Oui/Non
+    Domaine de tracking URL : clic-ici.fr
+    Début d'injection : Immédiat (Changer)
+
+    demande injecter campagne : bouton injection ou dans la liste de campagne action injecter
+
+    page de la campagne deja les infos
+        - Pb clic deux fois pour update
+    liste des campagnes : doit recuperer les infos
+        - afficher les notification au centre
+
+    multilist info dans la campagne
+
+    monolist info dans listsdata ( partiel si conflit )
+
+    destinataire : forcer l'action du filtre :
+                ++ $('#filter-query-builder-'+uid).on('change', onFilterChange);
+                ++ -> $('#filter-query-builder-'+uid).triggerHandler('change');

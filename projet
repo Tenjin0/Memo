@@ -39,3 +39,5 @@ create rajoute des elements comme id company
 + guzzle $response->json() avoir la reponse sous format json pour recuperer l'id par exemple
 
 + creer un production account -> aller sur entreprise netmessage -> parametre -> remplir le champ email. Done
+
++ injecter une campagne : mettre un message sms et mettre a jours

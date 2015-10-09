@@ -1,5 +1,5 @@
 - invoice.js faire que la date de fin soit >= a la date de debut datimepicker
-    
+
 - recurrence campaign
     mettre une date de debut dans le fomulaire field required
     mettre une date de fin dans le fomulaire set to + 3 days
@@ -42,3 +42,11 @@
   Dans import.js faire app.use (/import/:method/:type)
   valid.ftp
   rest.save
+
+
+++ history pricing
+++ import recurrence ftp
+++ campaign reccurrence
+++ regle stop gestion shell
+++ filtre gestion date relative absolu
+++ information notification injection campagne
