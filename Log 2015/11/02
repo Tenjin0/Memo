@@ -1,0 +1,10 @@
+- notification injection de campagne
+    immédiate ou différé
+    + nouveau champs date dans campagne
+        + create campaign
+        + update campaign
+        + si cette date < date du jour ( sans time) alors message d'avertissement : l'heure d'envoie est dépassée !
+        + si date > date du jour alors mettre dans trigger_action +/immediate
+        + Dans le choix des triggers a lancer mettre en priorité ceux qui sont campaign/inject/immediate ( info dans le trigger et sinon vérifiez les dates)
++ lancement des requetes sur les filtres des que les querybuilders sont lancés
+- coté api : mettre a jour le trigger_action de + /immediate si différé : si dans la requete il y a /immediate sinon faire la recherche des dates. 
