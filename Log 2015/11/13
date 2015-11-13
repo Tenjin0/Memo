@@ -1,0 +1,3 @@
+- Message du contenu de la campagne dans un popover apres smslong
+- requete sql de l'injection avec un order by immediate avant company parent
+- bug des popover -> ajout parametre pour la methode setPopover.

@@ -1,0 +1,5 @@
++ Faire une route api cmapaign/inject/information qui recupere la campaign est les count de chaque filterNames(API)
+
++ Faire un module require campaign_info avec les fonctions pour afficher les informations avant injection(EXT)
+
+- Refactoriser le code EXT pour en faire des fonctions afin de pouvoir avoir afficher les info de la campaign lors clic sur le bouton action.
