@@ -1,0 +1,4 @@
+npm install -g pm2
+pm2 stop [name|id]
+tail -f ~/.pm2/logs/[name].log
+tail -f ~/.pm2/logs/index.io-*
