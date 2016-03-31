@@ -1,0 +1,4 @@
+Fonction Scroll dans elastic search
+    retourne un id qui permet de recuperer les données d'une requete en cache.( pour la pagination)
+
+Rajout d'un md5 sur le nom d'un fichier pour resoudre les problemes de cache.

@@ -1,0 +1,10 @@
+Pour modifier le logger.util
+dans logger.init.js
+     tmpArray.push(util.inspect(arguments[index], {colors: true, showHidden: true, depth: 20}));
+Pour refaire la bdd d'elastic search
+dans /scripts/elasticsearch.template.js
+-                    } else if (!result[templateDefinition.name]) {
++                    } else if (!result[templateDefinition.name] || true) {
+
+-                            create: true,
++                            create: false,

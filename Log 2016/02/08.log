@@ -1,0 +1,2 @@
+Voir log extranet :
+    tail -f /var/www/log/extranet_netmessage_2016/02/08.php 
