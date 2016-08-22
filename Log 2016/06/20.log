@@ -1,0 +1,22 @@
+[] campagne cadencée : ajout du nombre
+[] retour quand on est sur la page d’une campagne (revenir sur la liste des campagnes)
+[] champs recherche dans l’entreprise, mais pas de filtre, et qui va rechercher aussi le nom du commercial
+[] la croix pour fermer dans toutes les sidebar doit être à gauche au lieu d’à droite
+[] ajouter un bouton envoi par email de la facture pour chacune des lignes
+[] plugin jQuery query builder > nouveaux opérateurs pour les dates + ‘avant’ ou ‘après’ > voir email de Philippe
+[] liste des campagnes : fixer la taille de la colonne action
+[] petites incohérence CSS
+[] supprimer la deuxième partie de message quand les « STOP au STOP » ne sont pas bons + revoir le texte quand sender défini sans stop au $$stop$$
+[] déclencher la modal de confirmation au clic sur le bouton Tester et Injecter
+[] dans l’onglet message : placer la tooltip du bouton créer un document au niveau du bouton au lieu de l’icône
+    user > fonction : champ libre
+[] Mettre le nouveau pulse Netmessage dans l’affichage du détail d’une campagne (loupe) + optimiser le temps d’affichage de l’information
+[] liste des campagnes dans les filtres, pouvoir filtrer par commercial et ajouter la colonne (uniquement pour Netmessage)
+[] dans les listes sélectionnées d’une campagne : quand on coche / décoche, cela ne cache pas le bloc de droite
+[] Sur la home : avoir le blog + infos
+
+[] Accepter STOP sms STOP, STOP pub STOP STOP nopub STOP ;  STOPsms STOP, STOPpub STOP STOPnopub STOP
+[] Quand pas d'emeteur si STOP indiquer syntaxe STOP rep STOP 
+modifié :         config.js
+modifié :         helpers/campaign.report.js
+modifié :         helpers/company.less.js

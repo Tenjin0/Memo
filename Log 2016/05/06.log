@@ -1,0 +1,15 @@
+Debug extranet
+
+    + Rajouter 1 px pour les boutons actions dans la liste de campagne.
+
+    loupe liste de campagne -> quand message == null, ne doit afficher.
+
+    + Filtre : aucun filtre -> ne met pas a jours le jquery builder. ( validation jquery buidler).
+    + probleme alignement bouton edition delete quand le nom du filtre est trop long
+    Ombre sur les titre page extranet : sauf small : couleur #AAA.
+
+Prochaine tache
+
+    reprogramming faire une sidebar et une icone action.
+
+        

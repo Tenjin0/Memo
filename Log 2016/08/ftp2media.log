@@ -1,0 +1,68 @@
+1ere étape >> script nodejs qui se connecte au FTP et récupère les données (XNM, ZIP, CSV) et va tenter de créer une campagne
+
+    récupération FTP > copy dans répertoire TMP
+    test fichier XNM + campagne
+    test destinataire + import « memory »
+    création campagne
+    injection type « test »
+
+
+2eme étape >> ajouter les deux nouvelles balises dans le fichier XNM
+
+TODO
+    checklist
+    liste failed rejeté
+    envoie email si erreur
+    tache technique logger
+    Envoie fichier sub APRES injection
+    Fusion des listes
+    Checker les id erreurs
+Question
+    limimation record > 20 -> erreur si vrai
+
+    Aucun destinataire trouvé Aucun destinataire trouvé dans la liste
+    CantCreateOpepath Erreur lors de la création de l’opération
+    CantAddOperationToSi Erreur lors de la création de l’opération
+    CantGetModelsList Erreur lors du listage des modèles enregistrés
+    DatabaseError Fichier csv invalide
+    Erreur lecture fichier XNM Fichier XNM invalide
+    Erreur lecture fichier XNM (ReadOpenError) Ouverture XNM impossible
+    Erreur lors du chargement du modele Erreur interne lors de l'accès au modèle
+    ErrMoveZipFile Erreur de déplacement du fichier zip
+    ErrUnzip Erreur de décompression du fichier zip
+    Invalid operation number Mauvais n°d'opération si refresh ou cancel
+    Message trop long (x trouvés, y max) Le message à envoyer est trop long.
+    Exemple :
+    « Message trop long (163 trouvés, 160 max) » Pour rappel, un SMS peut
+    comporter 160 caractères.
+    Il est possible de paramétrer votre compte pour diffuser des messages de plus
+    de 160 caractères (jusqu’à 306).
+    Dans ce cas, 2 SMS sont facturés. N’hésitez pas à contacter votre
+    interlocuteur commercial pour plus d’informations.
+    Modele a charger non indiqué Erreur interne, modèle à charger mal spécifié
+    Modèle sms non spécifié Balise modèle dans le XNM, mais sans valeur
+    Parametre account invalide Balise account invalide
+    Parametre bc indéfini Balise bc indéfinie/vide
+    Parametre media invalide Balise media invalide
+    Parametre message indéfini Balise message indéfinie/vide
+    parametre name indéfini Balise name (nom opération) indéfinie/vide
+    Parametre ref indéfini Balise ref invalide
+    Parametre senderid trop long (11 max) Le SenderID est trop long. Il doit contenir au maximum 11 caractères.
+    Pas de fichier zip Pas de fichier zip trouvé correspondant au XNM
+    Pas de liste Aucune liste de destinataire trouvée
+    Pas de parametres dans le fichier XNM Aucun paramètre trouvé dans le XNM
+    SmsModelNotFound Modèle demandé non trouvé
+    Succes Le traitement de votre opération s’est déroulé correctement
+    Syntaxe datetime incorrecte Format de la date/heure de programmation invalide
+    Systemerror Erreur système
+    UnknownFunctionName Nom de fonction invalide
+    TooManyDatabases Nombre de liste trop important (limité à 200)
+    Crédit insuffisant Le crédit disponible sur votre compte ne permet pas l’injection de votre opération.
+    Aucun destinataire valide trouvé La liste de destinataire ne contient aucun numéro « routable » (la syntaxe des
+    numéros n’est pas bonne, ou tous les numéros ont peut être été bloqués car
+    présent dans votre liste rouge ou encore bloqués suite à un filtre sur votre
+    compte).
+    TrackingBadSyntax La balise tracking contient une information non reconnue (autre que 1 ou vide).
+    NoLinkFound La balise tracking est présente dans le fichier XNM mais aucun lien détecté.
+    TooManyLinksFound La balise tracking est présente dans le fichier XNM mais plusieurs liens ont été
+    détecté au sein du message (1 seul lien est autorisé).

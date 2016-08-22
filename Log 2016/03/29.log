@@ -1,0 +1,10 @@
+Gerer les listes de campaign de test : Ajouter modifier
+[API] faire une table campaign_test dans mysql
+
+Creer un list de test de nombre max ( param dans config ) extra +api donc modifier l'existant
+
+Créer une liste : sélectionner une entreprise
+    1 seul  etre cache?
+    plusieurs multiselect
+
+[api] ressource virtuel campaign_test dans middleware/orm.js

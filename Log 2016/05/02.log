@@ -1,0 +1,6 @@
+Faire un import direct pour les fichiers < 1Mo
+faire un status fast_import pour que le script d'import ne fasse pas l'import
+Dans express faire un DbSave au lieu d'un rest.sidebar-invers
+Puis faire un require (script/import.js) avec les opts
+
+!!! Mise a jour coté extranet

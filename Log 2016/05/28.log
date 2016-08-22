@@ -1,0 +1,10 @@
+Performance :
+    Sur des grosse itération faire des variables globales ( boucle for etc ...)
+    faire test var === null var === true plutot que if (var)
+
+
+Erreur php dans une requete ajax :
+    voir network -> preview
+    Dans les logs /var/www/log/extranet_netmessage
+
+#373844 #ff8d04 #eaeaea

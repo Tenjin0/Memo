@@ -1,0 +1,57 @@
+
+Quand on crée une campagne :
+    [x] - sélectionner par défaut la date/heure de création dans "date d'envoi"
+    [x] - supprimer le pop de confirmation : "la campagne a bien été créer"
+
+Import de liste (au sein d'une campagne) :
+    [x] - remplacer "Nom de l'import" par "Nom de la liste"
+    [x] - peut on supprimer "Infinity" dans la barre de rechargement de la liste ?
+    [x] - destinataire du rapport d'import --> à placer dans les paramètres
+    [x] - Dédoublonnage actif : mettre les même type de checkbox que pour "dedoublonnage multi-liste"
+
+Limite du nombre de SMS :
+    [x] - bloquer le compteur à 8 SMS maximum !
+    [x] - quand on débloque le cadenas, indiquer en rouge "X sms facturés / destinataire" et si >2, alors indiquer "jusqu'à X sms facturés / destinataire"
+
+Tooltip au sein de l'onglet message d'une campagne :
+    [x] - expéditeur : Entre 3 et 11 caractères alphanumériques, espace compris (avec un E majuscule)
+    [x] - tracking : Tracking du lien (avec un T majuscule)
+    [x] - stop : Ajouter la mention de désabonnement (avec un A majuscule)
+    [x] - SMS Responsive : SMS Responsive : créer une landing page pour mon SMS
+
+Dans l'onglet "Paramètres" d'une campagne :
+    [x] - supprimer la ligne "Media", même si elle est grisée
+    [XxX] - si on modifie un paramètre, passer le bouton "Enregistrer en bleu"
+    [x] - si on a modifié un paramètre sans enregistrer, ne pas permettre le lancement de la campagne ou d'un test (comme quand on modifie le message)
+    [o] - mettre les même type de checkbox que d'habitude (fond bleu)
+
+Fréquence d'envoi du rapport :
+    [x] - écrire "heure(s)" au lieu de "heures"
+    [x] - écrire "jour(s)" au lieu de "jours"
+    [x] - écrire "semaine(s)" au lieu de "semaines"
+    [x] - définir un nombre max pour chaque item heure, jour et semaine
+    [x] - -> 72 heures maximum
+    [x] - -> 60 jours maximum
+    [x] - -> 7 semaines maximum
+
+    [x] - Si j'indique 8 semaine, alors le 8 passe à 7 (le maximum autorisé)
+
+Dans l'onglet historique :
+    [x] - sur le pop up qui indique le rapport du test, mettre un icône qui permet de rafraichir le rapport
+    [-] - a la place du statut de la campagne (en attente d'injection, facturée, etc...), indiquer plutôt le rapport "délivré", "non délivré", etc...
+            On ne peut connaitre le status du rapport
+    [n] - Ajout du graphique de du rapport de test dans l'historique
+
+[o] - Quand on clique sur le nom/prénom/date en haut à droite, on arrive sur une page d'info concernant l'utilisateur :
+[o] - pour "Rapport de campagne" tout en bas, mettre la même checkbox que sur "Statut"
+
+[o] - Sur les rapports de campagnes, peut on supprimer le mot "slice" dans les camemberts ?
+
+[x] - Debug divers
+    [x] - range tarif des prix : Fix bouton supprimer d'une range
+    [x] - autres
+
+x fait
+n nouveau
+o deja fait
+- probleme

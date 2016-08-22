@@ -1,0 +1,14 @@
+Campaign list -> Charts
+    http://jsfiddle.net/u7aRD/
+    http://jsfiddle.net/gh/get/jquery/1.9.1/highslide-software/highcharts.com/tree/master/samples/highcharts/demo/sparkline/
+
+
+Changer la page générée par le rapport de campagne vers le dossier local netmessage-core
+    modifier : helpers/campaign.report
+
+Evenement :
+    En attente de réponse
+    Abouti
+    Non abouti
+    Abouti
+    hard_bounce

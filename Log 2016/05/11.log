@@ -1,0 +1,7 @@
+Supprimer sa branch master
+    git checkout -b master2 upstream/master
+    Sur github changer la branche par default master => master2
+    supprimer master distant : git push origin :master
+    supprimer master local : git branch -D master
+    creer la nouvelle branche master locale : git checkout -b master upstream master
+    git push origin master

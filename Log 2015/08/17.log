@@ -1,3 +1,4 @@
 + script import.js
     node standalone.js --config=daemons/import.cfg.json
+        node standalone.js --config scripts/import.cfg.json --req.params.id_import 38
 + compréhension des differents appels du code

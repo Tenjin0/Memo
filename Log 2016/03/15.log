@@ -1,0 +1,9 @@
+Exemple de status d'envoie :
+
+tmp = [
+     {"label":"not_allowed","value":100,"event":{"id":900060,"name":"not_allowed","message_received":false,"categories":"sending_result","bounce":0,"color":"orange_0","billing":false},"color":"rgb(240, 173, 78)"},
+     {"label":"sending","value":39,"event":{"id":1,"name":"sending","message_received":false,"categories":"sending_result","bounce":0,"color":"grey_0","billing":false},"color":"rgb(200, 200, 200)"},
+     {"label":"mics_waiting","value":30,"event":{"id":0,"name":"mics_waiting","message_received":false,"categories":"sending_result","bounce":0,"billing":false}},
+     {"label":"delivered","value":200,"event":{"id":302000,"name":"delivered","message_received":true,"categories":"notification","bounce":5,"color":"green_0","billing":true},"color":"rgb(92, 184, 92)"},
+     {"label":"acquired","value":500,"event":{"id":301000,"name":"acquired","message_received":true,"categories":"notification","bounce":5,"color":"green_0","billing":true},"color":"rgb(92, 184, 92)"}
+ ];

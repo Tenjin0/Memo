@@ -1,0 +1,25 @@
+ Campaign sidebar test
+    preselectionner list d'import.
+
+Bouton fermer sidebar test.
+
+Template
+    Lost password
+    create User ppetit+@netmessage.com
+
+Rapport  email envoyé
+    CSV non envoyé dans rapport détaillé mail plusieurs fois envoyé
+    table Campagne champs du trigger du prochain envoie du rapport
+
+
+ helpers/company.less.js
+
+ var import_main_less;
+        if (process.env.ENVIRONMENT === 'LOCAL') {
+            import_main_less = '\n//extranet custom less variables\n@import "' + '/var/www/netmessage-core/datas/main.less";';
+        } else {
+            import_main_less = '\n//extranet custom less variables\n@import "' + req.config.dir.ROOT_DIR + 'node_modules/netmessage-core/datas/main.less";';
+        }
+
+
+node standalone.js --cfg=daemons/event.cfg.json --req.params.queue=EvtSend --req.daemon.interval=10
