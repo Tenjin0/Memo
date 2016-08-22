@@ -17,6 +17,7 @@ TODO
     Envoie fichier sub APRES injection
     Fusion des listes
     Checker les id erreurs
+    Effacer les fichiers sur le FTP et les fichiers TMP ?
 Question
     limimation record > 20 -> erreur si vrai
 
