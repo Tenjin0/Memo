@@ -43,5 +43,6 @@ TODO
             Un champ spécial dans campagne
         Sinon
             ...
+    Effacer les fichiers sur le FTP et les fichiers TMP ?
 Question
     limimation record > 20 -> erreur si vrai
