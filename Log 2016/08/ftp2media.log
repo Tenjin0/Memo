@@ -26,7 +26,7 @@ TODO
             BadValueInListFrom : Mauvaise valeur, non numérique ou non > 0
             BadValueInListTo : Mauvaise valeur, non numérique ou non > 0
             BadValueInListFromOrListTo : Si from et to ne sont pas des valeurs numériques
-            IllegalValueInListFromOrListTo : Si from > to, ou to > nombre de dests dans la liste, ou from > nombre de destinataires dans la liste
+            ---> IllegalValueInListFromOrListTo : Si from > to, ou to > nombre de dests dans la liste, ou from > nombre de destinataires dans la liste
         Si champs from et to mais pas list Import -> erreur
     Modele
         Chercher dans la table Document
@@ -35,6 +35,11 @@ TODO
         Verifier qu'il fait entre 3 et 11 caractères espace autorisé sauf au début est ce que je le trim ou pas ?
     Tracking
         Voir les erreurs
+
+    DateTime
+        tester la validité de la date
+    Message Trop long
+
 
     Billing_code
         nouveau champ dans campagne billing_code
