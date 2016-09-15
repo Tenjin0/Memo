@@ -1,0 +1,54 @@
+    1/ Au sein d'une campagne, indiquer sur tous les onglets le statut et le numéro de la campagne
+    2/ Export du tableau des campagnes : n'exporter que les colonnes sélectionnées
+    3/ Liste des factures : mettre le même module de filtre que celui des opérations
+    4/ Limite du nombre de SMS : commencer à 1 (au lieu de 0)
+    5/ Icône de l’éditeur SMS : mettre en surbrillance le bouton quand il est sélectionné (par exemple le bouton tracking)
+    6/ Import de liste :
+        - supprimer la case à cocher "Création automatique de la liste d'import"
+        - redéfinir les termes du menu déroulant "Action" :
+        --> Nouvelle liste de contacts (par défaut)
+        --> Insertion de contacts
+        --> Mise à jour de contacts
+        --> Insertion & Mise à jour de contacts
+        --> Suppression de contacts
+        + une fois l'action sélectionnée, ajouter en dessous une petite phrase explicative
+        + une fois l'action sélectionnée, le titre de la liste déroulante "Liste d'import' devient "Liste dans laquelle insérer les contacts", "Liste dans laquelle mettre à jour les contacts", etc...
+    7/ Statut utilisateur :
+        - remplacer le statut "crée" par "non activé"
+        - ajouter dans la liste la colonne 'Niveau de droit" (user niveau 0, user niveau 1, admin, etc...)
+        - quand on change le statut d'un utilisateur (par exemple on le ferme), le statut doit changer de suite (on doit pas avoir besoin d'actualiser la page)
+    8/ Dans "Gestion des droits", remplacer "Position" par "Droit"
+    9/ Facturation :
+        - Icônes de téléchargements des factures : ajouter un tooltip "Télécharger ma Facture" et "Télécharger ma Facture détaillée"
+        - Sur la liste des factures :
+            --> ajouter une colonne avec le montant TTC
+            --> mettre le même module de filtre que celui des opérations
+        - La fonction permettant d'imprimer les factures sélectionnées ne fonctionne plus
+        - La fonction permettant d'envoyer les factures sélectionnées par email doit afficher une pop-in indiquant :
+            --> une case à cocher "envoyer la facture à l'email paramétrée sur le compte client" (cochez par défaut)
+            --> une bouton radio "envoyer la facture à l'email suivant" (avec une zone de saisie)
+    10/ Dans le module de filtre des campagnes :
+        - prévoir une case à cocher avec "Afficher les sous-campagnes" (pour vois les sous opé anniversaire et cadencée)
+        - rendre possible la création d'un filtre qui se créera pour tous les sous comptes de l'entreprise (par exemple "Campagne SMS du mois")
+    11/ Liste des entreprises : afficher par défaut le nom du commercial
+    12/ Message SMS / STOP :
+        - Si STOP rep STOP au sein du message sans FROM, alors ne pas permettre l'enregistrement
+        - Bug : Je saisis un message sans aucune mention STOP et avec un FROM, et j'ai un message "Vous avez indiqué la mention STOP mais celle-ci n'est pas correcte.Avec un émetteur, la syntaxe correcte est STOP au $$STOP$$."
+    13/ Duplication de campagne :
+        - dans le rappel des paramétrés, indiquer le nom du filtre en clair (au lieu de "79cabaa102fbb593fc2fb4755730f526"
+        - Revoir les informations affichées dans le rappel des parametres car certaines infos sont fausses (par exemple affichage du message d'une autre campagne !!)
+    14/ SMS Responsive : dans l’éditeur de texte, dans la fenêtre de paramétrage d'une URL / choix mailto --> laisser plus de place dans l'espace dédiée à la saisie du message
+    15/ Téléchargement du rapport Formulaire + autre type de rapport : ne pas exporter les champs techniques
+    16/ Au sein d'une campagne, quand on clique sur "Télécharger le rapport", il manque un ° devant "clic"
+    17/ Possibilité d’insérer une colonne avec le user agent interprété dans une colonne du CSV
+    18/ Quand on se log, on arrive sur le dashboard mais le menu à gauche indique qu'on est dans "Paramétres"
+    19/ Sur le dashoard :
+        - dans le bloc "Statistiques de votre dernière campagne", indiquer
+            --> "+X points vs la campagne précédente (xx%)"
+            --> "+X points vs la moyenne des campagnes sur 1 mois (xx%)"
+        - dans le bloc "Vos 5 dernières campagnes non envoyées", remplacer "Date d'envoi" par "Date d'envoi prévue"
+        - dans le calendrier des campagnes :
+            --> indiquer la campagne avec la couleur de son statut
+            --> mettre "aujourd'hui" au lieu de "today"
+            --> quand je passe ma souris sur le 2 septembre, l’icône vert pour créer une campagne se positionne sur le 3 septembre !!
+        - sur l’icône clignotant sur les factures en retard, mettre dans le tooltip "l’échéance de paiement est dépassée de XX jours"
