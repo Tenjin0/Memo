@@ -7,10 +7,10 @@
         - supprimer la case à cocher "Création automatique de la liste d'import"
         - redéfinir les termes du menu déroulant "Action" :
         --> Nouvelle liste de contacts (par défaut)
-        --> Insertion de contacts
-        --> Mise à jour de contacts
-        --> Insertion & Mise à jour de contacts
-        --> Suppression de contacts
+            --> Insertion de contacts
+            --> Mise à jour de contacts
+            --> Insertion & Mise à jour de contacts
+            --> Suppression de contacts
         + une fois l'action sélectionnée, ajouter en dessous une petite phrase explicative
         + une fois l'action sélectionnée, le titre de la liste déroulante "Liste d'import' devient "Liste dans laquelle insérer les contacts", "Liste dans laquelle mettre à jour les contacts", etc...
     7/ Statut utilisateur :
